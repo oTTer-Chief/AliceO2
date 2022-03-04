@@ -1,36 +1,22 @@
-# Changes since 2022-02-14
+# Changes since 2022-02-18
 
 ## Changes in Analysis
 
-- [#8166](https://github.com/AliceO2Group/AliceO2/pull/8166) 2022-02-16: Using DataRefUtils to get payload size by [@matthiasrichter](https://github.com/matthiasrichter)
 - [#8182](https://github.com/AliceO2Group/AliceO2/pull/8182) 2022-02-18: DPL Analysis: allow index builder to be used with filtered input by [@aalkin](https://github.com/aalkin)
 ## Changes in Common
 
-- [#8149](https://github.com/AliceO2Group/AliceO2/pull/8149) 2022-02-14: [o2-sim] En-/disable hit creation per detector by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
-- [#8156](https://github.com/AliceO2Group/AliceO2/pull/8156) 2022-02-16: [o2-sim] Fatal in certain cases by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
-- [#8158](https://github.com/AliceO2Group/AliceO2/pull/8158) 2022-02-17: Fixes for TRD GPU tracking + related and unrelated cleanup by [@davidrohr](https://github.com/davidrohr)
 - [#8175](https://github.com/AliceO2Group/AliceO2/pull/8175) 2022-02-18: DPL: Get free SHM memory from correct segment, if --shmid is in command line by [@davidrohr](https://github.com/davidrohr)
+- [#8231](https://github.com/AliceO2Group/AliceO2/pull/8231) 2022-02-28: Suppress ACO detector, add TST instead by [@shahor02](https://github.com/shahor02)
+- [#8255](https://github.com/AliceO2Group/AliceO2/pull/8255) 2022-03-03: DPL: improve InfoLogger support by [@ktf](https://github.com/ktf)
+- [#8256](https://github.com/AliceO2Group/AliceO2/pull/8256) 2022-03-03: DPL: set infologger-mode if infologger-severity is set by [@ktf](https://github.com/ktf)
+- [#8253](https://github.com/AliceO2Group/AliceO2/pull/8253) 2022-03-03: o2-sim: Offer option to disable Geant transport by [@sawenzel](https://github.com/sawenzel)
 ## Changes in DataFormats
 
-- [#8146](https://github.com/AliceO2Group/AliceO2/pull/8146) 2022-02-14: GPU: Fix standalone compilation after changes to TPC dEdx class by [@davidrohr](https://github.com/davidrohr)
-- [#8160](https://github.com/AliceO2Group/AliceO2/pull/8160) 2022-02-15: Prototype of the reco TF skimming workflow by [@shahor02](https://github.com/shahor02)
 - [#8188](https://github.com/AliceO2Group/AliceO2/pull/8188) 2022-02-20: Extend cell time range by [@peressounko](https://github.com/peressounko)
 - [#8215](https://github.com/AliceO2Group/AliceO2/pull/8215) 2022-02-26: [MRRTF-146] MCH: Introduce CSV version of the Bad Channel List by [@aphecetche](https://github.com/aphecetche)
+- [#8231](https://github.com/AliceO2Group/AliceO2/pull/8231) 2022-02-28: Suppress ACO detector, add TST instead by [@shahor02](https://github.com/shahor02)
 ## Changes in Detectors
 
-- [#8150](https://github.com/AliceO2Group/AliceO2/pull/8150) 2022-02-14: Cosmetic fixes for detector raw file names: cru->crorc for CRORC detector, capital detector names, correct FIT FLPs by [@davidrohr](https://github.com/davidrohr)
-- [#8146](https://github.com/AliceO2Group/AliceO2/pull/8146) 2022-02-14: GPU: Fix standalone compilation after changes to TPC dEdx class by [@davidrohr](https://github.com/davidrohr)
-- [#8143](https://github.com/AliceO2Group/AliceO2/pull/8143) 2022-02-14: Split of the ITS threshold wf: Calibrator + aggregator - ADDED support for no EoS case by [@iravasen](https://github.com/iravasen)
-- [#8149](https://github.com/AliceO2Group/AliceO2/pull/8149) 2022-02-14: [o2-sim] En-/disable hit creation per detector by [@benedikt-voelkel](https://github.com/benedikt-voelkel)
-- [#8147](https://github.com/AliceO2Group/AliceO2/pull/8147) 2022-02-14: executable to create an aligned geom from CCDB entries + loadGeometry defaults change by [@shahor02](https://github.com/shahor02)
-- [#8163](https://github.com/AliceO2Group/AliceO2/pull/8163) 2022-02-15: Fixed runType in ITS calib workflow by [@iravasen](https://github.com/iravasen)
-- [#8160](https://github.com/AliceO2Group/AliceO2/pull/8160) 2022-02-15: Prototype of the reco TF skimming workflow by [@shahor02](https://github.com/shahor02)
-- [#8159](https://github.com/AliceO2Group/AliceO2/pull/8159) 2022-02-15: Spec and workflow to inject DISTSUBTIMEFRAME message by [@shahor02](https://github.com/shahor02)
-- [#8166](https://github.com/AliceO2Group/AliceO2/pull/8166) 2022-02-16: Using DataRefUtils to get payload size by [@matthiasrichter](https://github.com/matthiasrichter)
-- [#8168](https://github.com/AliceO2Group/AliceO2/pull/8168) 2022-02-17: Change the CruId into the Geo.h by [@fapfap69](https://github.com/fapfap69)
-- [#8161](https://github.com/AliceO2Group/AliceO2/pull/8161) 2022-02-17: Fix HMP mc->raw output for for-cru option by [@shahor02](https://github.com/shahor02)
-- [#8158](https://github.com/AliceO2Group/AliceO2/pull/8158) 2022-02-17: Fixes for TRD GPU tracking + related and unrelated cleanup by [@davidrohr](https://github.com/davidrohr)
-- [#8172](https://github.com/AliceO2Group/AliceO2/pull/8172) 2022-02-17: Minor fixes in HMPID equipment IDs definition by [@shahor02](https://github.com/shahor02)
 - [#8179](https://github.com/AliceO2Group/AliceO2/pull/8179) 2022-02-18: Event display: Add option to not throw when no input + unrelated cleanup by [@davidrohr](https://github.com/davidrohr)
 - [#8167](https://github.com/AliceO2Group/AliceO2/pull/8167) 2022-02-18: Hmpid dcsccdb improvments by [@fapfap69](https://github.com/fapfap69)
 - [#8178](https://github.com/AliceO2Group/AliceO2/pull/8178) 2022-02-19: Fix OB Half Staves relative position and U-leg length by [@mario6829](https://github.com/mario6829)
@@ -46,13 +32,23 @@
 - [#8217](https://github.com/AliceO2Group/AliceO2/pull/8217) 2022-02-25: Sort AOD track daughters indices by [@shahor02](https://github.com/shahor02)
 - [#8215](https://github.com/AliceO2Group/AliceO2/pull/8215) 2022-02-26: [MRRTF-146] MCH: Introduce CSV version of the Bad Channel List by [@aphecetche](https://github.com/aphecetche)
 - [#8218](https://github.com/AliceO2Group/AliceO2/pull/8218) 2022-02-28: MCH: add ability to write digits in Root format in the digits-writer by [@aphecetche](https://github.com/aphecetche)
+- [#8223](https://github.com/AliceO2Group/AliceO2/pull/8223) 2022-02-28: Option to write ITS/MFT raw dump to custom directory by [@shahor02](https://github.com/shahor02)
+- [#8231](https://github.com/AliceO2Group/AliceO2/pull/8231) 2022-02-28: Suppress ACO detector, add TST instead by [@shahor02](https://github.com/shahor02)
+- [#8228](https://github.com/AliceO2Group/AliceO2/pull/8228) 2022-02-28: T0TOF: Returning the number of tracks used by [@njacazio](https://github.com/njacazio)
+- [#8247](https://github.com/AliceO2Group/AliceO2/pull/8247) 2022-03-01: Fix bug in assigning PhysicalPrimary property during AOD creation by [@sawenzel](https://github.com/sawenzel)
+- [#8173](https://github.com/AliceO2Group/AliceO2/pull/8173) 2022-03-01: IDCs: various code optimisations by [@matthias-kleiner](https://github.com/matthias-kleiner)
+- [#8229](https://github.com/AliceO2Group/AliceO2/pull/8229) 2022-03-01: [EMCAL-630] Make decoder errors optional by [@mfasDa](https://github.com/mfasDa)
+- [#8252](https://github.com/AliceO2Group/AliceO2/pull/8252) 2022-03-02: DPL: improve handling of messageable types by [@ktf](https://github.com/ktf)
+- [#8233](https://github.com/AliceO2Group/AliceO2/pull/8233) 2022-03-02: TRD: allow vDrift calib with TPC-TRD tracks only by [@martenole](https://github.com/martenole)
+- [#8230](https://github.com/AliceO2Group/AliceO2/pull/8230) 2022-03-03: Hmpid fix decoder by [@fapfap69](https://github.com/fapfap69)
+- [#8196](https://github.com/AliceO2Group/AliceO2/pull/8196) 2022-03-03: adding toy-MC for TPC clusters by [@matthias-kleiner](https://github.com/matthias-kleiner)
+- [#8257](https://github.com/AliceO2Group/AliceO2/pull/8257) 2022-03-03: set OMP n threads for the loop only by [@shahor02](https://github.com/shahor02)
 ## Changes in EventVisualisation
 
 - [#8179](https://github.com/AliceO2Group/AliceO2/pull/8179) 2022-02-18: Event display: Add option to not throw when no input + unrelated cleanup by [@davidrohr](https://github.com/davidrohr)
+- [#8231](https://github.com/AliceO2Group/AliceO2/pull/8231) 2022-02-28: Suppress ACO detector, add TST instead by [@shahor02](https://github.com/shahor02)
 ## Changes in Framework
 
-- [#8155](https://github.com/AliceO2Group/AliceO2/pull/8155) 2022-02-17: Bugfix DPL raw proxy: stable walking through DataHeaders by [@matthiasrichter](https://github.com/matthiasrichter)
-- [#8164](https://github.com/AliceO2Group/AliceO2/pull/8164) 2022-02-17: Bugfix: using message size as payload size by [@matthiasrichter](https://github.com/matthiasrichter)
 - [#8182](https://github.com/AliceO2Group/AliceO2/pull/8182) 2022-02-18: DPL Analysis: allow index builder to be used with filtered input by [@aalkin](https://github.com/aalkin)
 - [#8175](https://github.com/AliceO2Group/AliceO2/pull/8175) 2022-02-18: DPL: Get free SHM memory from correct segment, if --shmid is in command line by [@davidrohr](https://github.com/davidrohr)
 - [#8180](https://github.com/AliceO2Group/AliceO2/pull/8180) 2022-02-18: DPL: prefetch the channel by name by [@ktf](https://github.com/ktf)
@@ -72,7 +68,26 @@
 - [#8225](https://github.com/AliceO2Group/AliceO2/pull/8225) 2022-02-25: DPL: fix warnings by [@ktf](https://github.com/ktf)
 - [#8226](https://github.com/AliceO2Group/AliceO2/pull/8226) 2022-02-25: DPL: keep ServiceSpec around for debug purposes by [@ktf](https://github.com/ktf)
 - [#8234](https://github.com/AliceO2Group/AliceO2/pull/8234) 2022-02-27: DPL: provide a way to specify lifetime from text query by [@ktf](https://github.com/ktf)
+- [#8240](https://github.com/AliceO2Group/AliceO2/pull/8240) 2022-02-28: Avoid race condition in channel names by [@ktf](https://github.com/ktf)
+- [#8237](https://github.com/AliceO2Group/AliceO2/pull/8237) 2022-02-28: DPL GUI: improve color for debug messages by [@ktf](https://github.com/ktf)
+- [#8227](https://github.com/AliceO2Group/AliceO2/pull/8227) 2022-02-28: DPL: communicate FairMQ state to driver by [@ktf](https://github.com/ktf)
+- [#8236](https://github.com/AliceO2Group/AliceO2/pull/8236) 2022-02-28: DPL: fix more than one attribute in query. by [@ktf](https://github.com/ktf)
 - [#8208](https://github.com/AliceO2Group/AliceO2/pull/8208) 2022-02-28: Improved testing of the DPL proxies by [@matthiasrichter](https://github.com/matthiasrichter)
+- [#8245](https://github.com/AliceO2Group/AliceO2/pull/8245) 2022-03-01: Adapt exit timeout by [@ktf](https://github.com/ktf)
+- [#8210](https://github.com/AliceO2Group/AliceO2/pull/8210) 2022-03-01: DPL: exit immediately when we are idle by [@ktf](https://github.com/ktf)
+- [#8242](https://github.com/AliceO2Group/AliceO2/pull/8242) 2022-03-01: DPL: honour correctly ccdb-run-dependent metadata by [@ktf](https://github.com/ktf)
+- [#8238](https://github.com/AliceO2Group/AliceO2/pull/8238) 2022-03-01: DPL: introduce Lifetime::OutOfBand by [@ktf](https://github.com/ktf)
+- [#8248](https://github.com/AliceO2Group/AliceO2/pull/8248) 2022-03-01: Separate script for calibration workflows by [@davidrohr](https://github.com/davidrohr)
+- [#8244](https://github.com/AliceO2Group/AliceO2/pull/8244) 2022-03-02: DPL: fix warnings in framework headers by [@ktf](https://github.com/ktf)
+- [#8252](https://github.com/AliceO2Group/AliceO2/pull/8252) 2022-03-02: DPL: improve handling of messageable types by [@ktf](https://github.com/ktf)
+- [#8246](https://github.com/AliceO2Group/AliceO2/pull/8246) 2022-03-02: DPL: move helper to standalone function by [@ktf](https://github.com/ktf)
+- [#8251](https://github.com/AliceO2Group/AliceO2/pull/8251) 2022-03-02: DPL: protect against spaces in table names by [@ktf](https://github.com/ktf)
+- [#8221](https://github.com/AliceO2Group/AliceO2/pull/8221) 2022-03-03: DPL: automatically include --exit-transition-timeout by [@ktf](https://github.com/ktf)
+- [#8255](https://github.com/AliceO2Group/AliceO2/pull/8255) 2022-03-03: DPL: improve InfoLogger support by [@ktf](https://github.com/ktf)
+- [#8256](https://github.com/AliceO2Group/AliceO2/pull/8256) 2022-03-03: DPL: set infologger-mode if infologger-severity is set by [@ktf](https://github.com/ktf)
+- [#8260](https://github.com/AliceO2Group/AliceO2/pull/8260) 2022-03-04: DPL: improve documentation for CCDB InputSpecs by [@ktf](https://github.com/ktf)
+- [#8259](https://github.com/AliceO2Group/AliceO2/pull/8259) 2022-03-04: DPL: improve parsing of channel-config by [@ktf](https://github.com/ktf)
 ## Changes in Utilities
 
 - [#8215](https://github.com/AliceO2Group/AliceO2/pull/8215) 2022-02-26: [MRRTF-146] MCH: Introduce CSV version of the Bad Channel List by [@aphecetche](https://github.com/aphecetche)
+- [#8213](https://github.com/AliceO2Group/AliceO2/pull/8213) 2022-03-02: Accesing payload size through DataRefUtils by [@matthiasrichter](https://github.com/matthiasrichter)
